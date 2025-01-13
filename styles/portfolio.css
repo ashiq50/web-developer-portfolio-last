@@ -156,7 +156,17 @@ footer {
   justify-content: space-between;
   padding: 200px 100px;
   background-color: #fff8f3;
+  gap: 100px;
 }
-.social-links {
-  gap: 5px;
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  color: #757575;
+  padding: 18px 35px;
 }
